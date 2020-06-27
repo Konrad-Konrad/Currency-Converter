@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 95%);
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.body {
+  max-width: 600px;
+  margin: auto;
+  padding: 0px 20px;
+  font-style: Playfair;
+  font-size: 20px;
+  background-color: white;
+}
+
+.header {
+  padding: 10px 50px;
+}
+
+.header__h1 {
+  color: indigo;
+  text-align: center;
+}
+
+.form {
+  border: indigo;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px 50px;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+.form__paragraph {
+  padding: 20px 0px;
+}
+
+.form__button {
+  width: 100%;
+  padding: 10px 3px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: indigo;
+  font-weight: bolder;
+  background-color: white;
+}
+
+.form__button:visited {
+  border-style: solid;
+  border-width: 2px;
+  border-color: indigo;
+}
+
+.form__button:hover {
+  background-color: indigo;
+  border-style: none;
+  color: white;
+}
+
+.form__select {
+  min-width: 200px;
+  max-width: 200px;
+  padding: 2px 5px;
+  border-color: indigo;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.form__unorderedList {
+  list-style-type: none;
+}
