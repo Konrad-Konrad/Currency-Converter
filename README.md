@@ -2,7 +2,7 @@
 Week 4 homework YouCode course.
 
 # Technologies applied
-- HTML form build with <label> <select> and <option> elements
+- HTML form build with label select and option elements
 - full page background image
 - CSS Flex Box
 
